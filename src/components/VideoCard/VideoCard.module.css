@@ -8,6 +8,7 @@
 
 .Thumbnail {
     width: 100%;
+    max-width: 300px;
     border-top-left-radius: 6px;
     border-top-right-radius: 6px;
 }
@@ -18,4 +19,20 @@
     letter-spacing: 1px;
     color: rgba(0, 0, 0, 0.8);
     padding: 1rem;
+}
+
+
+.Thumbnail {
+    display: block;
+    width: 100%;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+    cursor: pointer;
+}
+
+.VideoCardTitle {
+    font-size: 18px;
+    font-weight: 600;
+    margin: 0;
+    padding: 16px;
 }
